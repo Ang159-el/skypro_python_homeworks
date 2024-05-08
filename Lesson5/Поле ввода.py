@@ -15,11 +15,13 @@ click.send_keys("1000")
 sleep(3)
 click.clear()
 sleep(2)
+
 # ввести в это же поле текст 999
 click.send_keys("999")
 
 sleep(2)
 driver.quit()
+
 
 # открываем страницу в браузере Firefox
 
@@ -35,6 +37,7 @@ click.send_keys("1000")
 sleep(3)
 click.clear()
 sleep(2)
+
 # ввести в это же поле текст 999
 click.send_keys("999")
 
